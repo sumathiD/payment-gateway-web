@@ -16,7 +16,15 @@ const CreditPage = () => {
               <div className="inputBox">
                 <label>Credit/Debit Card Number<span>*</span></label><br />
                 <input type="text" className="inputBox creditwidth" />
-                <span className="img"><img src="./images/images.png" /></span>
+                {/* <span className="img"> */}
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMvKRme09fZczEI27dK0SboCY_I6-9Ndkaww&usqp=CAU"
+                  style={{ width: '40px', height: '40px' }}
+                />
+
+                <img src="https://banner2.cleanpng.com/20180403/qte/kisspng-mastercard-credit-card-visa-payment-service-mastercard-5ac3fae6d9ece0.7626666215227931908926.jpg"
+                  style={{ width: '60px', height: '40px' }}
+                />
+                {/* </span> */}
               </div>
               <div className="row">
                 <div>
@@ -30,10 +38,11 @@ const CreditPage = () => {
               </div>
 
             </div>
-
-            <p>Fields marked with * are mandatory</p>
-            <input type="submit" value="Reset"></input>
-            <input type="submit" value="Proceed"></input>
+            <div className="paraflex">
+              <div className='para'>Fields marked with * are mandatory</div>
+              <input type="button" value="Reset" className="cmn_btn reset_btn" ></input>
+              <input type="button" value="Proceed" className="cmn_btn procedd_btn"></input>
+            </div>
           </form>
         </div>
       </Card>
