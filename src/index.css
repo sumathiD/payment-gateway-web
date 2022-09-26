@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+
 .overall_background_color {
   height: 100vh;
   width: 100%;
@@ -14,7 +16,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  font-family: "Roboto"!important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Sider__Payment__Menu {
+ 
+}
+/* .Sider__Payment__Menu li:hover {
+  border-left: 3px solid #fff;
+  padding: 0 20px!important;
+  margin: 10px 20px 25px 20px!important;  
+} */
+.Sider__Payment__Menu li {
+  /* padding: 0 20px!important; */
+  border-left: 3px solid #040748;
+  /* margin: 10px 20px 25px 20px!important; */
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+}
+.Sider__Payment__Menu .ant-menu-item {
+  padding: 0 20px!important;
+  margin: 10px 20px 25px 20px!important;
+}
+.Sider__Payment__Menu .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected
+  {
+    border-radius: 4px!important;
+    background: #4F517F!important;  
+    color: #fff;
+  }
+  
