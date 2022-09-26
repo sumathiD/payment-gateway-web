@@ -3,7 +3,7 @@ import { Card, Col, Input, Row, Form } from 'antd';
 import { Formik } from 'formik';
 const CreditPage = () => {
   return (
-    <div className="site-card-border-less-wrapper">
+    <div className="site-card-border-less-wrapper overall_border">
       <Card title="CARD DETAILS" bordered={false} style={{ width: 700 }}>
         <div className='container'>
           <form>
@@ -18,7 +18,7 @@ const CreditPage = () => {
                 <input type="text" className="inputBox creditwidth" />
                 {/* <span className="img"> */}
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMvKRme09fZczEI27dK0SboCY_I6-9Ndkaww&usqp=CAU"
-                  style={{ width: '40px', height: '40px' }}
+                  style={{ width: '40px', height: '40px', marginLeft: "20px" }}
                 />
 
                 <img src="https://banner2.cleanpng.com/20180403/qte/kisspng-mastercard-credit-card-visa-payment-service-mastercard-5ac3fae6d9ece0.7626666215227931908926.jpg"
@@ -28,8 +28,8 @@ const CreditPage = () => {
               </div>
               <div className="row">
                 <div>
-                  <label>Expiry Date<span>*</span></label><br />
-                  <input type="text" placeholder='Valid Through(MM/YY)' className="expiry inputBox " />
+                  <label className="expirydate">Expiry Date<span>*</span></label><br />
+                  <input type="text" placeholder='Valid Through(MM/YY)' className="expiry inputBox expirydatefileld " />
                 </div>
                 <div className='cvv'>
                   <label>CVV<span>*</span></label><br />
