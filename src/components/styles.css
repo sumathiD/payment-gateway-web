@@ -1,0 +1,47 @@
+.ant-menu-root.ant-menu-vertical,
+.ant-menu-root.ant-menu-vertical-left,
+.ant-menu-root.ant-menu-vertical-right,
+.ant-menu-root.ant-menu-inline {
+    box-shadow: none;
+    background: #040748;
+    color: #FFFFFF;
+}
+
+input {
+    width: 100%;
+}
+
+.container {
+    border: 1px solid #97999B;
+    border-radius: 2px;
+}
+
+.border {
+    padding: 30px;
+}
+
+.inputBox {
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+.creditwidth {
+    width: 40%;
+}
+
+.img {
+    margin-left: 20px;
+}
+
+.expiry {
+    width: 136%;
+}
+
+.row {
+    display: flex;
+}
+
+.cvv {
+    padding-left: 200px;
+}
