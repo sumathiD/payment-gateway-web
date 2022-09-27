@@ -3,7 +3,7 @@ import { Card, Col, Input, Row, Form } from 'antd';
 import { Formik } from 'formik';
 const CreditPage = () => {
   return (
-    <div className="site-card-border-less-wrapper overall_border">
+    <div className="site-card-border-less-wrapper">
       <Card title="CARD DETAILS" bordered={false} style={{ width: 700 }}>
         <div className='container'>
           <form>

@@ -13,8 +13,9 @@ import RoutePage from './routePage';
 const Dashboard = () => {
     const navigate = useNavigate()
     return (
-        <div style={{ display: "flex", flexDirection: "row", height: "100vh", marginLeft: "251px", }} className="Sider__Payment__Menu">
-            <Menu className='bg' style={{background: '#040748', paddingTop: '31px'}}
+        <div style={{ display: "flex", flexDirection: "row", minHeight:'80%', marginLeft: "251px" }} >
+        <div className="Sider__Payment__Menu" style={{  height: "auto", display: 'flex', border: 'none'}} >
+            <Menu className='bg' style={{background: '#040748', paddingTop: '31px', border: 'none'}}
                 onClick={({ key }) => {
                     if (key === "others") {
                         //todo
@@ -32,7 +33,11 @@ const Dashboard = () => {
                 ]}>
 
             </Menu>
-            <RoutePage />
+           
+        </div>
+        <div style={{border: '1px solid #EDECED'}}>
+        <RoutePage />
+        </div>
         </div>
     )
 }
