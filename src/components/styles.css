@@ -125,6 +125,9 @@ input[type="text"] {
     margin-top: 10px !important;
     width: 144%;
 }
+.expirydatefileld::-webkit-input-placeholder {
+    color:rgba(0, 0, 0, 0.25) !important;
+}
 
 .preferredpage {
     background: #040748;
